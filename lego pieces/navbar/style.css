@@ -4,6 +4,9 @@
     margin: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.header-container{
+    box-shadow: 0 5px 10px #0b0a0aad;
+}
 .nav-container{
     display: flex;
     justify-content: space-between;
@@ -57,7 +60,7 @@ p{
     border-radius: 10px;
 }
 /*using media-query for responsive for mobile*/
-@media (max-width:400px){
+@media (max-width:500px){
     .toggle-btn{
         display: flex;
     }
